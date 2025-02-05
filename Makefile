@@ -12,7 +12,7 @@ SRC		= philo.c \
 
 # COMPILING VARIABLES #
 CC		= cc
-CFLAG	= -Wall -Werror -Wextra
+CFLAG	= -Wall -Werror -Wextra -lpthread -pthread
 RM		= rm -f
 
 $(NAME) : $(SRC)
